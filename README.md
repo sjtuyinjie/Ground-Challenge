@@ -37,23 +37,6 @@ Our dataset comprises 21 trajectories (over 500G) in diverse scenarios such as a
 For Chinese users, try [![bilibili](cover.png)](https://www.bilibili.com/video/BV1q3411G7iF/)
 
 
-## Updates
-### 2022.06.20   Thanks Jialin Liu (Fudan University) for his work to test LVI-SAM on M2DGR. Following is the link of their modified LVI-SAM version [link](https://github.com/electech6/LVI-SAM_detailed_comments). Refer [Link](https://github.com/SJTU-ViSYS/M2DGR/blob/main/LVISAM-modified.md) for detailed information. And the configuration files for LVI-SAM on M2DGR are given in [launch file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/module_sam.launch),[camera file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/my_params_camera.yaml) and [lidar file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/my_params_lidar.yaml). Feel free to test the demo on your machine!
-
-<center>
-<img src="https://github.com/shuttworth/Record_Datasets_For_LVI-SAM/blob/main/img/gate_01_v1.gif" width="70%">
-</center>
-
-<center>
-<img src="https://github.com/shuttworth/Record_Datasets_For_LVI-SAM/blob/main/img/street_08_v1.gif" width="70%">
-</center>
-
-<p align="left">LVI-SAM on M2DGR</p>
-
-2022.02.18   We have upload a brand new SLAM dataset with GNSS, vision and IMU information. Here is our link [SJTU-GVI](https://github.com/sjtuyinjie/SJTU_GVI). Different from M2DGR, new data is captured on a real car and it records GNSS raw measurements with a Ublox ZED-F9P device to facilitate GNSS-SLAM. Give us a star and folk the project if you like it.
-
-
-2022.02.01   Our work has been accepted by ICRA2022!
 
 
 
@@ -143,12 +126,11 @@ The rostopics of our rosbag sequences are listed as follows:
 
 * Infrared Camera:`/thermal_image_raw ` 
 * V-I Sensor:  
-`/camera/color/image_raw/compressed `,  
+`/camera/color/image_raw `,  
+`/camera/depth/image_raw `,  
 `/camera/imu`
-* Event Camera:  
-`/dvs/events`,  
-`/dvs_rendering/compressed`
-* IMU: `/handsfree/imu `
+
+* IMU: `/imu/data `
  
 
 ## 3.DATASET SEQUENCES
