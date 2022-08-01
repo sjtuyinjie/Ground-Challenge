@@ -108,14 +108,8 @@ The rostopics of our rosbag sequences are listed as follows:
 ## 3.DATASET SEQUENCES
 
 
-**We make public ALL THE SEQUENCES with their GT now.**
+**At this stage, we only release part of our data. The complete dataset will be made public once this paper is accepted. **
 
-<div align=center>
-
-<img src="https://github.com/sjtuyinjie/mypics/blob/main/dynamic.gif" width="400px">
-</div>
-
-<p align="left">Figure 3. A sample video with fish-eye image(both forward-looking and sky-pointing),perspective image,thermal-infrared image,event image and lidar odometry</p>
 
 
 An overview of M2DGR is given in the table below:
