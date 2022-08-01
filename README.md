@@ -4,7 +4,7 @@
 
 
 
-## Author: [Jie Yin](https://github.com/sjtuyinjie?tab=repositories),  
+
 <div align=center>
 <img src="https://github.com/sjtuyinjie/mypics/blob/main/bigsix.jpg" width="800px">
 
