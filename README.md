@@ -127,7 +127,7 @@ Duration/s |203.63|334.15|164|154.72|189.31|145.54|302.36|332.73|186.28|198.08|1
 Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|73.1
 
 
-### 3.1 Outdoors
+### 3.1 Visual Challenges
 
 <div align=center>
 <img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/outdoor.png" width="400px">
@@ -163,7 +163,7 @@ walk_01|2021-08-04|21.5g|291s|day,back and fourth|[Rosbag](https://sjtueducn-my.
 </div>
 
 
-### 3.2 Indoors
+### 3.2 Wheel Failure
 <div align=center>
 
 <img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/lift.jpg" width="400px">
@@ -219,7 +219,7 @@ room_dark_06|2021-08-15|35.6g|172s|room,dark|[Rosbag](https://sjtueducn-my.share
   
 
   
-### 3.3 alternative indoors and outdoors
+### 3.3 Specific Motion Patterns
   
 <div align=center>
 <img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/door.jpg" width="400px">
