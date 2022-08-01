@@ -165,9 +165,9 @@ The rostopics of our rosbag sequences are listed as follows:
 
 
 An overview of M2DGR is given in the table below:
-Scenario|Street|Circle|Gate|Walk|Hall|Door|Lift|Room|Roomdark|TOTAL
+Scenario|Darkroom|Occlusion|Office|Wall|Motionblur|Hall|Loop|Roughroad|Corridor|TOTAL
 --|:--|:--:|--:|--:|--:|--:|--:|--:|--:|--:
-Number | 10|2|3|1|5|2|4|3|6|36
+Number | 3|4|3|3|3|3|2|3|2|34
 Size/GB|590.7|50.6| 65.9|21.5| 117.4 |46.0|112.1|45.3|171.1|1220.6
 Duration/s |7958 | 478| 782 |291 |1226|588|1224|275|866|13688
 Dist/m |7727.72| 618.03| 248.40|263.17|845.15|200.14|266.27|144.13|395.66|10708.67
