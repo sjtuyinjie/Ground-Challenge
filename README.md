@@ -108,7 +108,7 @@ The rostopics of our rosbag sequences are listed as follows:
 ## 3.DATASET SEQUENCES
 
 
-**At this stage, we only release part of our data. The complete dataset will be made public once this paper is accepted. **
+**At this stage, we only release part of our data for evaluation. The complete dataset will be made public once this paper is accepted. **
 
 
 
