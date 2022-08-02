@@ -1,6 +1,10 @@
 # Ground-Challenge
 
+<div align=center>
+<img src="fig/scenarios.jpg" width="800px">
 
+</div>
+<p align="center">Figure 1. Different scenarios</p>
 
 
 
