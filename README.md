@@ -119,9 +119,7 @@ Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|73.1
 
 ### 3.1 Visual Challenges
 
-<div align=center>
-<img src="fig/office.jpg" width="400px">
-<p align="center">Figure 4.office.</p>
+
   
   
  <div align=center>
