@@ -134,10 +134,23 @@ Sequence Name|Total Size|Duration|Features|Rosbag|GT
 Darkroom1|2.9g|100s|slight light, going into a room|[Rosbag](bag)|[GT](gt)
 Darkroom2|2.3g|76s|sharp turn|[Rosbag](bag)|[GT](gt)
 Darkroom3|1.9g|64s|slight light|[Rosbag](bag)|[GT](gt)
-
-
-
-
+Occlusion1|2.9g|97s|moving feet, far features|[Rosbag](bag)|[GT](gt)
+Occlusion2|3.2g|108s|hand occlusion|[Rosbag](bag)|[GT](gt)
+Occlusion3|2.6g|89s|hand occlusion|[Rosbag](bag)|[GT](gt)
+Occlusion4|1.2g|40s|complete occlusion|[Rosbag](bag)|[GT](gt)
+Office1|1.3g|46s|exposure change|[Rosbag](bag)|[GT](gt)
+Office2|1.9g|66s|going into a dark room|[Rosbag](bag)|[GT](gt)
+Office3|1.5g|52s|office|[Rosbag](bag)|[GT](gt)
+Room1|1.3g|46s|exposure change|[Rosbag](bag)|[GT](gt)
+Room2|1.9g|66s|going into a dark room|[Rosbag](bag)|[GT](gt)
+Room3|1.5g|52s|office|[Rosbag](bag)|[GT](gt)
+Motionblur1|1.5g|52s|aggressive motion|[Rosbag](bag)|[GT](gt)
+Motionblur2|1.6g|54s|aggressive motion|[Rosbag](bag)|[GT](gt)
+Motionblur3|1.2g|40s|aggressive motion|[Rosbag](bag)|[GT](gt)
+Wall1|1.7g|59s|wall in a corridor|[Rosbag](bag)|[GT](gt)
+Wall2|2.0g|66s|wall in a big hall|[Rosbag](bag)|[GT](gt)
+Wall3|3.9g|65s|wall in a corridor|[Rosbag](bag)|[GT](gt)
+  
 ### 3.2 Wheel Failure
 <div align=center>
 
@@ -146,47 +159,16 @@ Darkroom3|1.9g|64s|slight light|[Rosbag](bag)|[GT](gt)
 <p align="left">Figure 5. Lift Sequences:The robot hang around a hall on the first floor and then went to the second floor by lift.A laser scanner track the trajectory outside the lift</p>
   
 
-  
-
-Sequence Name|Collection Date|Total Size|Duration|Features|Rosbag|GT
---|:--|:--:|--:|--:|--:|--:
-lift_01|2021-08-04|18.4g|225s|lift|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EZp-yCPxrxNBg5cM_aWualABVCNktGm29u0RA2UGVmyp2Q?e=BChvEN)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EQkO6B_IDPtItavRTjwedkoBQDUc6vV2jqtkOsmnWL7lhw?e=dDNVaE)
-lift_02|2021-08-04|43.6g|488s|lift|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EfXP5V6Yi3tEvQL-Gbaq4QcBEVNxqacC-tltlzYnFnW7zQ?e=vgyEzS)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EX9iTyrQjWpKu9dI0Vx9uUkBAeLjUuU-PwUVT4yl1Tit1Q?e=toxiWg)
-lift_03|2021-08-15|22.3g|252s|lift|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EWWG7OgCmTpIj_VZixYTkzsBew8ONoMrI13acbZ_8svV3g?e=1OVDYA)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EQgymOgmbiVDt8NPcb-HiYoBUKkfzJZeJnKZdOvAXMgWtA?e=mzM6kq)
-lift_04|2021-08-15|27.8g|299s|lift|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/ETrPaBIVaV1EtTVUG9effPIBK1LiJ3pGK93jAdhLZU_Pjg?e=ekVtWl)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EYgfjuI3fZ9AsjGH1jKwwqcBlXsaRaEZ9TS8Y1VHlTpyCw?e=0fMc5n)
-
-  
-  
-  
-
-Sequence Name|Collection Date|Total Size|Duration|Features|Rosbag|GT
---|:--|:--:|--:|--:|--:|--:
-hall_01|2021-08-01|29.1g|351s|randon walk|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EWQ2bcxWRgZLtK_eSIgnNmoB_ozAyXeEU_MmlVqPZeiB7Q?e=BKghlK)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EYxqt8qdK2hCgzW7qoQQWEIBvWgJAC7rotStNWxiEXDigg?e=lJabX7)
-hall_02|2021-08-08|15.0g|128s|randon walk|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EaAEMKhvsgJCn0bSvlNOENkB-jVOOH4gxrxATSCbwPdUng?e=xCXoXE)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EWybRtZdpVhBtfPbB4PlvigBNXjgmp8PzHbcMBqUA2ivhA?e=WRoQN9)
-hall_03|2021-08-08|20.5g|164s|randon walk|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EWyFq_niW4xIkk9pg2tLVfMBfT9JaC0ZUa0CogD6sND6Ew?e=ODUNxq)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EVL6pWtJ0yVNgDkZLYonkrMBcVAVN8pO2F5Kdh5tSh9fdg?e=nGDMba)
-hall_04|2021-08-15|17.7g|181s|randon walk|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EV0oYa2MNi1HqmhvCM1pbboBAqQlij03bPifdyd_cqZUDA?e=P56O61)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EUrqpdjawd9HgF7aVQxYL_cBKIye_pFquj3tobdSnj_H2w?e=iAEG0u)
-hall_05|2021-08-15|35.1g|402s|circle|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EQRFrzmO2BxFmeAZV_ifTpsBJjdIM7XjQAnmnuDdhE9-Vg?e=WDZwUt)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EfuK4fEcs0JEtXGNWjEVI9UB9qHZjd7Y4WAs9XLZgmA4hQ?e=zQrXDW)
-
-
-
-
-
-<img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/room.png" width="400px">
-
-<p align="center">Figure 6. Room Sequences:under a Motion-capture system with twelve cameras.</p>
-  
-Sequence Name|Collection Date|Total Size|Duration|Features|Rosbag|GT
---|:--|:--:|--:|--:|--:|--:
-room_01|2021-07-30|14.0g|72s|room,bright|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EfG372xf9h9Dl0xjm5XcDgoB7JP0SsWJfAfpfO2CU-QOmw?e=XINjaC)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/ER6DA9bugPZNphRXA-zT_8QB4Hj0r0564NXknXHrlWuEcg?e=SlLMZM)
-room_02|2021-07-30|15.2g|75s|room,bright|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EaVK6tu2gs5NnOpAhhWrTPEBK_cpPGiq_1vDXET2GTCeNQ?e=2QpXCE)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/ES-9QFWKEeBNqxyMv5dJe7EB5YxfTzi8v3x2Hf1aLObnAg?e=ifwPHL)
-room_03|2021-07-30|26.1g|128s|room,bright|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EZfZZNphLARHl0H4zLbM_kABbwkgl5efzhVqUeia8T-adQ?e=aWHDbk)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EbcfH0djHMxCos8kfIH4i6wBBazfAOcFu6DLDSThzATf-w?e=W630hf)
-room_dark_01|2021-07-30|20.2g|111s|room,dark|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EXx8PoEtySBCvzFbYnQrFIkBDnjodZJ97_EVvXeSHW3snw?e=ZVsp9L)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/Ee4o6_FIKeNPqG-f2ahm7p0BPUExaiMABzHfvhj1xGRitQ?e=6IwX76)
-room_dark_02|2021-07-30|30.3g|165s|room,dark|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/ERbnfghuh-NFo9W0Sev8cggBQQiTQLzjFiQy5So7j3J9tw?e=KEbKXr)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/Ef_CAOf_e-VLlu9xdAm2QSIBTP0B1QNm7uRG-s9EWib4hg?e=95qPDA)
-room_dark_03|2021-07-30|22.7g|116s|room,dark|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EXwiG7vYnsdKh2OotVeQKYsByEtckw39FPXiWLXBrA5kqw?e=0ZR9jg)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EXjFPcy4SrlCk5ZRvY9nGMkBzZuaSC6NVqPweU-1_OozuQ?e=E9uKVh)
-room_dark_04|2021-08-15|29.3g|143s|room,dark|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EQqOn3hvPFVHin6apSr233wBJuG69N2iDPSauYQhKker4A?e=QUABfA)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EZ01sVBMNV9FloNLhb7XdeIB1bIp0GtwoxS0pXirZ9dO6A?e=KFFArd)
-room_dark_05|2021-08-15|33.0g|159s|room,dark|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/Ead7Ayxgh0REuN1J5SPDFFUBKMF8X3w2eGBCjOgefOs-VA?e=czasTj)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/ET5ihyrgN3FCpR_i6yZeVPYBBANJ57Cq5ly44ddTOpPl7Q?e=la7ifj)
-room_dark_06|2021-08-15|35.6g|172s|room,dark|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EUefMvN3g6hMos_qxocEH-4BYMFnt-yF4HxECfx3nDy81Q?e=laORp2)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/ESjB6YrPnKhMuSb-hM_ZSw0BltnaLhn41H6LgexZjebNsA?e=xuEjTp)
-</div>
+Sequence Name|Total Size|Duration|Features|Rosbag|GT
+--|:--|:--:|--:|--:|--:
+Hall1|2.6g|91s|slippery ground, a reflective surface|[Rosbag](bag)|[GT](gt)
+Hall2|3.2g|110s|slippery ground, a reflective surface|[Rosbag](bag)|[GT](gt)
+Hall3|2.9g|101s|slippery ground, walking human|[Rosbag](bag)|[GT](gt)
+Loop1|4.1g|97s|moving feet, far features|[Rosbag](bag)|[GT](gt)
+Loop2|5.8g|137s|hand occlusion|[Rosbag](bag)|[GT](gt)
+Roughroad1|2.2g|75s|rough road|[Rosbag](bag)|[GT](gt)
+Roughroad2|1.5g|52s|rough road|[Rosbag](bag)|[GT](gt)
+Roughroad3|1.8g|59s|rough road|[Rosbag](bag)|[GT](gt)
 
 
 
@@ -196,17 +178,15 @@ room_dark_06|2021-08-15|35.6g|172s|room,dark|[Rosbag](https://sjtueducn-my.share
   
 ### 3.3 Specific Motion Patterns
   
-<div align=center>
-<img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/door.jpg" width="400px">
-<p align="center">Figure 7. Door Sequences:A laser scanner track the robot through a door from indoors to outdoors.</p>
-
-
-Sequence Name|Collection Date|Total Size|Duration|Features|Rosbag|GT
---|:--|:--:|--:|--:|--:|--:
-door_01|2021-08-04|35.5g|461s|outdoor to indoor to outdoor,long-term|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/ERxIk8o_HwlAgbqJ2wwgHl8Br3uBZhyuBbxM2bG_0A6QYA?e=uQr94R)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EVgYKmnhIy9AhCC1tOOKUOYB91dEx3mGmFQ9ewLtlNDw6g?e=uylMro)
-door_02|2021-08-04|10.5g|127s|outdoor to indoor,short-term|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EWCKNoEfAmxGsahwnJDYWS4BfgEPoONQKR8HAuZA4ng5eg?e=KB9PYF)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/594666_sjtu_edu_cn/EdOFufA_mTxCoVlzcu285xoBpNQkaTaYdfL8Nd0Nad6mBQ?e=bxEbOK)
-
-</div>
+Sequence Name|Total Size|Duration|Features|Rosbag|GT
+--|:--|:--:|--:|--:|--:
+Corridor1|2.9g|100s|zigzag, long corridor|[Rosbag](bag)|[GT](gt)
+Corridor2|2.9g|98s|straight forward, long corridor|[Rosbag](bag)|[GT](gt)
+Rotation1|1.6g|53s|moving feet, far features|[Rosbag](bag)|[GT](gt)
+Rotation2|2.1g|73s|hand occlusion|[Rosbag](bag)|[GT](gt)
+Rotation3|1.7g|57s|rough road|[Rosbag](bag)|[GT](gt)
+Static1|1.6g|56s|rough road|[Rosbag](bag)|[GT](gt)
+Static2|1.1g|37s|rough road|[Rosbag](bag)|[GT](gt)
 
 
 ## 4. CONFIGURERATION FILES
