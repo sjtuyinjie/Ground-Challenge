@@ -5,11 +5,7 @@
 
 
 
-<div align=center>
-<img src="https://github.com/sjtuyinjie/mypics/blob/main/bigsix.jpg" width="800px">
 
-</div>
-<p align="center">Figure 1. Sample Images</p>
 
 ## NOTICE
 ### We strongly recommend that the newly proposed SLAM algorithm be tested on our data, because our data has following features:
@@ -73,7 +69,7 @@ Physical drawings and schematics of the ground robot is given below. The unit of
 <img src="fig/robot.jpg" width="600px">
 </div>
 
-<p align="left">Figure 2. robot.</p>
+<p align="left">Figure 2. The data capture robot.</p>
 
 
 
@@ -124,9 +120,13 @@ Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|73.1
 ### 3.1 Visual Challenges
 
 <div align=center>
-<img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/outdoor.png" width="400px">
-<p align="center">Figure 4. Outdoor Sequences:all trajectories are mapped in different colors.</p>
+<img src="fig/office.jpg" width="400px">
+<p align="center">Figure 4.office.</p>
   
+  
+ <div align=center>
+<img src="fig/" width="400px">
+<p align="center">Figure 4. Outdoor Sequences:all trajectories are mapped in different colors.</p>
 
 
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
