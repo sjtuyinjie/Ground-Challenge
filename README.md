@@ -150,6 +150,7 @@ Motionblur3|1.2g|40s|aggressive motion|[Rosbag](bag)|[GT](gt)
 Wall1|1.7g|59s|wall in a corridor|[Rosbag](bag)|[GT](gt)
 Wall2|2.0g|66s|wall in a big hall|[Rosbag](bag)|[GT](gt)
 Wall3|3.9g|65s|wall in a corridor|[Rosbag](bag)|[GT](gt)
+  </div>
   
 ### 3.2 Wheel Failure
 <div align=center>
@@ -169,7 +170,7 @@ Loop2|5.8g|137s|hand occlusion|[Rosbag](bag)|[GT](gt)
 Roughroad1|2.2g|75s|rough road|[Rosbag](bag)|[GT](gt)
 Roughroad2|1.5g|52s|rough road|[Rosbag](bag)|[GT](gt)
 Roughroad3|1.8g|59s|rough road|[Rosbag](bag)|[GT](gt)
-
+</div>
 
 
 
@@ -177,7 +178,7 @@ Roughroad3|1.8g|59s|rough road|[Rosbag](bag)|[GT](gt)
 
   
 ### 3.3 Specific Motion Patterns
-  
+  <div align=center>
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
 --|:--|:--:|--:|--:|--:
 Corridor1|2.9g|100s|zigzag, long corridor|[Rosbag](bag)|[GT](gt)
@@ -187,7 +188,7 @@ Rotation2|2.1g|73s|hand occlusion|[Rosbag](bag)|[GT](gt)
 Rotation3|1.7g|57s|rough road|[Rosbag](bag)|[GT](gt)
 Static1|1.6g|56s|rough road|[Rosbag](bag)|[GT](gt)
 Static2|1.1g|37s|rough road|[Rosbag](bag)|[GT](gt)
-
+</div>
 
 ## 4. CONFIGURERATION FILES
 For convenience of evaluation, we provide configuration files of some well-known SLAM systems as below:
