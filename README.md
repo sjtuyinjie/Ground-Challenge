@@ -179,6 +179,7 @@ Roughroad3|1.8g|59s|rough road|[Rosbag](bag)|[GT](gt)
   
 ### 3.3 Specific Motion Patterns
   <div align=center>
+  
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
 --|:--|:--:|--:|--:|--:
 Corridor1|2.9g|100s|zigzag, long corridor|[Rosbag](bag)|[GT](gt)
