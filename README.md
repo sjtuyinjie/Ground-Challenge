@@ -113,12 +113,12 @@ The rostopics of our rosbag sequences are listed as follows:
 
 
 An overview of M2DGR is given in the table below:
-Scenario|Darkroom|Occlusion|Office|Room|Wall|Motionblur|Hall|Loop|Roughroad|Corridor|Rotation|Static|TOTAL
---|:--|:--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:
-Number |3|4|3|3|3|3|3|2|3|2|3|2|34
-Dist/m |92.01|273.77|75.51|102.1|86.68|166.56|236.33|371.76|68.06|164.28|12.38|1.85|1651.29
-Duration/s |203.63|334.15|164|154.72|189.31|145.54|302.36|332.73|186.28|198.08|183.16|92.58|2486.54
-Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|73.1
+Scenario|Darkroom|Occlusion|Office|Room|Wall|Motionblur|Hall|Loop|Roughroad|Corridor|Rotation|Static|Slope|TOTAL
+--|:--|:--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:
+Number |3|4|3|3|3|3|3|2|3|2|3|2|2|36
+Dist/m |92.0|273.8|75.5|102.1|86.7|166.6|236.3|371.8|68.1|164.3|12.4|1.9|128.5|1780.0
+Duration/s |203.6|334.2|164.0|154.7|189.3|145.5|302.4|332.7|186.3|198.1|183.2|92.6|195.0|2681.6
+Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|5.7|78.8
 
 
 ### 3.1 Visual Challenges
@@ -191,6 +191,8 @@ Rotation2|2.1g|73s|hand occlusion|[Rosbag](bag)|[GT](gt)
 Rotation3|1.7g|57s|rough road|[Rosbag](bag)|[GT](gt)
 Static1|1.6g|56s|rough road|[Rosbag](bag)|[GT](gt)
 Static2|1.1g|37s|rough road|[Rosbag](bag)|[GT](gt)
+Slope1|2.8g|96s|slope|[Rosbag](bag)|[GT](gt)
+Slope2|2.9g|99s|slope|[Rosbag](bag)|[GT](gt)
 </div>
 
 ## 4. CONFIGURERATION FILES
