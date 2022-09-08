@@ -29,14 +29,6 @@ Our dataset comprises 21 trajectories (over 500G) in diverse scenarios such as a
 * We launched a comprehensive benchmark for ground robot navigation. On this benchmark, we evaluated existing state-of-the-art SLAM algorithms of various designs and analyzed their characteristics and defects individually.
 
 
-## Video
-[![ICRA2022 Presentation](cover.png)](https://www.youtube.com/watch?v=73enWUwxJ1k)
-
-
-
-For Chinese users, try [![bilibili](cover.png)](https://www.bilibili.com/video/BV1q3411G7iF/)
-
-
 
 
 
@@ -260,18 +252,3 @@ For IMU intrinsics,visit [Imu_utils](https://github.com/gaowenliang/imu_utils)
 For extrinsics between cameras and IMU,visit [Kalibr](https://github.com/ethz-asl/kalibr)
 For extrinsics between Lidar and IMU,visit [Lidar_IMU_Calib](https://github.com/APRIL-ZJU/lidar_IMU_calib) 
 For extrinsics between cameras and Lidar, visit [Autoware](https://github.com/Autoware-AI/autoware.ai) 
-### 5.4 Getting RINEX files
-For GNSS based methods like [RTKLIB](http://www.rtklib.com/),we usually need to get data in the format of RINEX. To make use of GNSS raw measurements, we use [Link](https://github.com/TakahashiJinxu/ublox2rinex) toolkit.
-
-### 5.5 ROS drivers for UVC cameras 
-We write a ROS driver for UVC cameras to record our thermal-infrared image. 
-[UVC ROS driver](https://github.com/sjtuyinjie/toolkit/tree/main/thermal_ws/src)
-
-
-## 6.FUTURE PLANS
-In the future, we plan to update and extend our project from time to time, striving to build a comprehensive SLAM benchmark similar to the KITTI dataset for ground robots.
-### If you have any suggestions or questions, do not hesitate to propose an issue. And if you find our dataset helpful in your research, a simple star is the best affirmation for us.
-
-## 7.ACKNOWLEGEMENT
-This work is supported by NSFC(62073214). Authors from SJTU hereby express our appreciation.
-
