@@ -75,7 +75,7 @@ The rostopics of our rosbag sequences are listed as follows:
 ## 2.DATASET SEQUENCES
 
 
-## **At this stage, we only release part of Rosbags. The complete dataset with GT and calibration files will be made public upon paper acceptance. **
+## Notice: At this stage, we only release part of Rosbags. The complete dataset with GT and calibration files will be made public upon paper acceptance. 
 
 
 
