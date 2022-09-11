@@ -58,7 +58,7 @@ All the sensors and track devices and their most important parameters are listed
 
 * **V-I Sensor**,Realsense d435i,RGB/Depth 640*480,69H-FOV,42.5V-FOV,15Hz;IMU 6-axix, 200Hz  
 * **IMU**,Xsens Mti-300,9-axis,400Hz;  
-
+* **Wheel Odometer**,AgileX,2D,25Hz;  
 
 The rostopics of our rosbag sequences are listed as follows:
 
@@ -71,11 +71,11 @@ The rostopics of our rosbag sequences are listed as follows:
 
 * IMU: `/imu/data `
  
-
+* Wheel Odometer: `/odom `
 ## 2.DATASET SEQUENCES
 
 
-**At this stage, we only release part of our data for evaluation. The complete dataset will be made public once this paper is accepted. **
+**At this stage, we only release part of Rosbags. The complete dataset with GT and calibration files will be made public upon paper acceptance. **
 
 
 
