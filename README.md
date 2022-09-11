@@ -93,11 +93,6 @@ Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|5.7|78.8
 
   
   
- <div align=center>
-<img src="fig/" width="400px">
-<p align="center">Figure 4. Outdoor Sequences:all trajectories are mapped in different colors.</p>
-
-
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
 --|:--|:--:|--:|--:|--:
 Darkroom1|2.9g|100s|slight light, going into a room|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EfJ_m0MD1upOphD5vnCoqSoBJ54_5D_vQQD0hpAwAq0qPg?e=nPEMLZ)|[GT](gt)
@@ -122,11 +117,7 @@ Wall3|3.9g|65s|wall in a corridor|[Rosbag](bag)|[GT](gt)
   </div>
   
 ### 2.2 Wheel Failure
-<div align=center>
 
-<img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/lift.jpg" width="400px">
-
-<p align="left">Figure 5. Lift Sequences:The robot hang around a hall on the first floor and then went to the second floor by lift.A laser scanner track the trajectory outside the lift</p>
   
 
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
