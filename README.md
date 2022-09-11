@@ -151,7 +151,7 @@ Roughroad3|1.8g|59s|rough road|[Rosbag](bag)|[GT](gt)
   
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
 --|:--|:--:|--:|--:|--:
-Corridor1|2.9g|100s|zigzag, long corridor|[Rosbag](bag)|[GT](gt)
+Corridor1|2.9g|100s|zigzag, long corridor|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/r/personal/594666_sjtu_edu_cn/Documents/bag/corridor1.bag?csf=1&web=1&e=dDh2Xs)|[GT](gt)
 Corridor2|2.9g|98s|straight forward, long corridor|[Rosbag](bag)|[GT](gt)
 Rotation1|1.6g|53s|moving feet, far features|[Rosbag](bag)|[GT](gt)
 Rotation2|2.1g|73s|hand occlusion|[Rosbag](bag)|[GT](gt)
