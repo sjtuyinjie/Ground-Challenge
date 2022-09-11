@@ -90,7 +90,7 @@ Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|5.7|78.8
 
 ### 2.1 Visual Challenges
 
-
+  <div align=center>
   
   
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
@@ -118,7 +118,7 @@ Wall3|3.9g|65s|wall in a corridor|[Rosbag](bag)|[GT](gt)
   
 ### 2.2 Wheel Failure
 
-  
+    <div align=center>
 
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
 --|:--|:--:|--:|--:|--:
@@ -156,20 +156,4 @@ Slope2|2.9g|99s|slope|[Rosbag](bag)|[GT](gt)
 ## 3. CONFIGURERATION FILES
 For convenience of evaluation, we provide configuration files of some well-known SLAM systems as below:
 
-[A-LOAM](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/aloam/aloam_velodyne_HDL_32.launch),
-
-[LeGO-LOAM](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/legoloam/run.launch),
-
-[LINS](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/lins/exp_port.yaml),
-
-[LIO-SAM](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/liosam/params.yaml),
-
-[VINS-MONO](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/vins/mytest.launch),
-
-[ORB-Pinhole](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/orb3/paperd435i.yaml),
-
-[ORB-Fisheye](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/orb3/paperleft.yaml),
-
-[ORB-Thermal](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/orb3/paperthermal.yaml),
-
-[CUBMAPSLAM](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/cubemapslam/runCubemapstreet_06.sh)
+## To be uploaded
