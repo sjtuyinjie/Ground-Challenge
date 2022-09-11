@@ -118,7 +118,7 @@ Wall3|3.9g|65s|wall in a corridor|[Rosbag](bag)|[GT](gt)
   
 ### 2.2 Wheel Failure
 
-    <div align=center>
+   <div align=center>
 
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
 --|:--|:--:|--:|--:|--:
@@ -130,6 +130,7 @@ Loop2|5.8g|137s|hand occlusion|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/
 Roughroad1|2.2g|75s|rough road|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EX-Yic1OhN1GjrcGoaE2mu0BTua8w3C8PvRzMa0rsm84pQ?e=WbUFXR)|[GT](gt)
 Roughroad2|1.5g|52s|rough road|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EV-gMKCrnbFFmGLU5FV32loB-OMys7O3dZ25InJR0aH-0Q?e=s62dlw)|[GT](gt)
 Roughroad3|1.8g|59s|rough road|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EcJemetJZMBPnJwlXNwCySkBTGhc5QXRlTo0fOEFF0uWfQ?e=soHfZ3)|[GT](gt)
+
 </div>
 
 
