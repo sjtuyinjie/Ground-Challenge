@@ -11,22 +11,17 @@
 
 
 
-## NOTICE
-### We strongly recommend that the newly proposed SLAM algorithm be tested on our data, because our data has following features:
-1. A  rich pool of sensory information including vision, lidar, IMU, GNSS,event, thermal-infrared images and so on
-2. Various scenarios in real-world environments including lifts, streets, rooms, halls and so on.
-3. Our dataset brings great challenge to existing SLAM algorithms including LIO-SAM and ORB-SLAM3. If your proposed algorihm outperforms SOTA systems on M2DGR, your paper will be much more convincing and valuable.
-
-
 ## ABSTRACT:
 
-The research on visual SLAM (Simultaneous Localization and Mapping) algorithms has made great progress in recent years, and the centimeter-level accuracy has been achieved by state-of-the-art algorithms in some scenarios. However, there is still some way off towards their practical deployment in service robots. The reason is that existing SLAM algorithms is developed under the assumption that the robot moves in a certain way in a static, texture-filled environment. Nonetheless, some corner cases or sensor failures in real applications might easily fail these systems. Therefore, challenging datasets are vital for further SLAM development. In this paper, we introduce Ground-Challenge: a novel dataset collected by a ground robot with multiple sensors including a RGBD camera, an inertial measurement unit (IMU), a wheel odometer and a 3D LiDAR.
-Our dataset comprises 21 trajectories (over 500G) in diverse scenarios such as aggressive motion, severe occlusion, poor exposure, changing illumination, few textures, rough roads, pure rotation, motion blur, and wheel suspension. Some state-of-the-art SLAM algorithms are tested on our dataset, and results show that these systems are seriously drifting and even failing on some sequences.
+We introduce Ground-Challenge: a novel dataset collected by a ground robot with multiple sensors including an RGB-D camera, an inertial measurement unit (IMU), a wheel odometer and a 3D LiDAR to support the research on corner cases of visual SLAM systems.
+Our dataset comprises 36 trajectories with diverse corner cases such as aggressive motion, severe occlusion, changing illumination, few textures, pure rotation, motion blur, wheel suspension, etc. Some state-of-the-art SLAM algorithms are tested on our dataset, showing that these systems are seriously drifting and even failing on specific sequences.
+We will release the dataset and relevant materials upon paper publication to benefit the research community.
 
 ## MAIN CONTRIBUTIONS:
-* We collected long-term challenging sequences for ground robots both indoors and outdoors with a complete sensor suite, which includes six surround-view fish-eye cameras, a sky-pointing fish-eye camera, a perspective color camera, an event camera, an infrared camera, a 32-beam LIDAR, two GNSS receivers, and two IMUs. To our knowledge, this is the first SLAM dataset focusing on ground robot navigation with such rich sensory information.
-* We recorded trajectories in a few challenging scenarios like lifts, complete darkness, which can easily fail existing localization solutions. These situations are commonly faced in ground robot applications, while they are seldom discussed in previous datasets.
-* We launched a comprehensive benchmark for ground robot navigation. On this benchmark, we evaluated existing state-of-the-art SLAM algorithms of various designs and analyzed their characteristics and defects individually.
+
+* We collect a novel visual SLAM dataset for ground robots with a rich pool of sensors in diverse environments both indoors and outdoors. Particularly, the dataset covers a series of challenging sequences for sensor failures and specific movement patterns.
+*  State-of-the-art SLAM algorithms of different settings are tested on our benchmark. And the results indicate these systems are not robust enough for situations such as sensor failures.
+* To facilitate the research on corner cases of robot navigation, we will release the dataset with ground truth trajectories and the configuration file of each tested algorithm upon paper publication.
 
 
 
@@ -36,29 +31,9 @@ Our dataset comprises 21 trajectories (over 500G) in diverse scenarios such as a
 
 
 
-## 1.LICENSE
-This work is licensed under MIT license. International License and is provided for academic purpose. If you are interested in our project for commercial purposes, please contact us on 1195391308@qq.com for further communication. 
 
-If you face any problem when using this dataset, feel free to propose an issue. And if you find our dataset helpful in your research, simply give this project a 
-. 
-
-The paper has been accepted by both [RA-L](https://www.ieee-ras.org/publications/ra-l/) and [ICRA 2022](https://icra2022.org/). A preprint version of the paper in [Arxiv](https://arxiv.org/abs/2112.13659) and [IEEE RA-L](https://ieeexplore.ieee.org/document/9664374).If you use M2DGR in an academic work, please cite:
-~~~
-@ARTICLE{9664374,
-  author={Yin, Jie and Li, Ang and Li, Tao and Yu, Wenxian and Zou, Danping},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={M2DGR: A Multi-sensor and Multi-scenario SLAM Dataset for Ground Robots}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/LRA.2021.3138527}}
-~~~
-
-
-
-## 2.SENSOR SETUP
-### 2.1 Acquisition Platform
+## 1.SENSOR SETUP
+### 1.1 Acquisition Platform
 Physical drawings and schematics of the ground robot is given below. The unit of the figures is centimeter.
 
 <div align=center>
@@ -75,7 +50,7 @@ Physical drawings and schematics of the ground robot is given below. The unit of
 
 
 
-### 2.2 Sensor parameters
+### 1.2 Sensor parameters
 
 All the sensors and track devices and their most important parameters are listed as below:
 
@@ -97,14 +72,14 @@ The rostopics of our rosbag sequences are listed as follows:
 * IMU: `/imu/data `
  
 
-## 3.DATASET SEQUENCES
+## 2.DATASET SEQUENCES
 
 
 **At this stage, we only release part of our data for evaluation. The complete dataset will be made public once this paper is accepted. **
 
 
 
-An overview of M2DGR is given in the table below:
+An overview of Ground-Challenge is given in the table below:
 Scenario|Darkroom|Occlusion|Office|Room|Wall|Motionblur|Hall|Loop|Roughroad|Corridor|Rotation|Static|Slope|TOTAL
 --|:--|:--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:
 Number |3|4|3|3|3|3|3|2|3|2|3|2|2|36
@@ -113,7 +88,7 @@ Duration/s |203.6|334.2|164.0|154.7|189.3|145.5|302.4|332.7|186.3|198.1|183.2|92
 Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|5.7|78.8
 
 
-### 3.1 Visual Challenges
+### 2.1 Visual Challenges
 
 
   
@@ -146,7 +121,7 @@ Wall2|2.0g|66s|wall in a big hall|[Rosbag](bag)|[GT](gt)
 Wall3|3.9g|65s|wall in a corridor|[Rosbag](bag)|[GT](gt)
   </div>
   
-### 3.2 Wheel Failure
+### 2.2 Wheel Failure
 <div align=center>
 
 <img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/lift.jpg" width="400px">
@@ -171,7 +146,7 @@ Roughroad3|1.8g|59s|rough road|[Rosbag](bag)|[GT](gt)
   
 
   
-### 3.3 Specific Motion Patterns
+### 2.3 Specific Motion Patterns
   <div align=center>
   
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
@@ -187,7 +162,7 @@ Slope1|2.8g|96s|slope|[Rosbag](bag)|[GT](gt)
 Slope2|2.9g|99s|slope|[Rosbag](bag)|[GT](gt)
 </div>
 
-## 4. CONFIGURERATION FILES
+## 3. CONFIGURERATION FILES
 For convenience of evaluation, we provide configuration files of some well-known SLAM systems as below:
 
 [A-LOAM](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/aloam/aloam_velodyne_HDL_32.launch),
@@ -207,48 +182,3 @@ For convenience of evaluation, we provide configuration files of some well-known
 [ORB-Thermal](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/orb3/paperthermal.yaml),
 
 [CUBMAPSLAM](https://github.com/sjtuyinjie/toolkit/blob/main/config_files/cubemapslam/runCubemapstreet_06.sh)
-
-## 5.DEVELOPMENT TOOLKITS
-### 5.1 Extracting Images
-* For rosbag users, first make image view
-~~~
-roscd image_view
-rosmake image_view
-sudo apt-get install mjpegtools
-~~~
-
-open a terminal,type roscore.And then open another,type
-~~~
-rosrun image_transport republish compressed in:=/camera/color/image_raw raw out:=/camera/color/image_raw respawn="true"
-~~~
-* For non-rosbag users,just take advantage of following script  [export_tum](https://github.com/sjtuyinjie/toolkit/blob/main/export_tum.py),[export_euroc](https://github.com/sjtuyinjie/toolkit/blob/main/export_euroc.py) and [get_csv](https://github.com/sjtuyinjie/toolkit/blob/main/img2csv.py) to get data in formats of Tum or EuRoC.
-
-### 5.2 Evaluation
-We use open-source tool [evo](https://github.com/MichaelGrupp/evo) for evalutation.
-To install evo,type
-~~~
-pip install evo --upgrade --no-binary evo
-~~~
-To evaluate monocular visual SLAM,type
-~~~
-evo_ape tum street_07.txt your_result.txt -vaps
-~~~
-To evaluate LIDAR SLAM,type
-~~~
-evo_ape tum street_07.txt your_result.txt -vap
-~~~
-To test GNSS based methods,type
-~~~
-evo_ape tum street_07.txt your_result.txt -vp
-~~~
-
-### 5.3 Calibration
-For camera intrinsics,visit [Ocamcalib](http://sites.google.com/site/scarabotix/ocamcalib-toolbox) for omnidirectional model.
-visit [Vins-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) for pinhole and MEI model.
-use [Opencv](https://opencv.org/) for Kannala Brandt model
-
-For IMU intrinsics,visit [Imu_utils](https://github.com/gaowenliang/imu_utils)
-
-For extrinsics between cameras and IMU,visit [Kalibr](https://github.com/ethz-asl/kalibr)
-For extrinsics between Lidar and IMU,visit [Lidar_IMU_Calib](https://github.com/APRIL-ZJU/lidar_IMU_calib) 
-For extrinsics between cameras and Lidar, visit [Autoware](https://github.com/Autoware-AI/autoware.ai) 
