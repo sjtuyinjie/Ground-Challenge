@@ -25,7 +25,19 @@ We will release the dataset and relevant materials upon paper publication to ben
 
 
 
-
+## OUR PREVIOUS WORK:
+[M2DGR](https://ieeexplore.ieee.org/document/9664374).If you use M2DGR in an academic work, please cite:
+~~~
+@ARTICLE{9664374,
+  author={Yin, Jie and Li, Ang and Li, Tao and Yu, Wenxian and Zou, Danping},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={M2DGR: A Multi-sensor and Multi-scenario SLAM Dataset for Ground Robots}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/LRA.2021.3138527}}
+~~~
 
 
 
