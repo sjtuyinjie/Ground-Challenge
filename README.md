@@ -4,11 +4,11 @@
 <img src="fig/scenarios.jpg" width="800px">
 
 </div>
-<p align="center">Figure 1. Different scenarios</p>
+<p align="center">Figure 1. Different corner cases for SLAM</p>
 
 
 
-
+## Notice: At this stage, we only release part of Rosbags. The complete dataset with GT and calibration files will be made public upon paper acceptance. 
 
 
 ## ABSTRACT:
@@ -34,7 +34,7 @@ We will release the dataset and relevant materials upon paper publication to ben
 
 ## 1.SENSOR SETUP
 ### 1.1 Acquisition Platform
-Physical drawings and schematics of the ground robot is given below. The unit of the figures is centimeter.
+The ground robot is given below. The unit of the figures is centimeter.
 
 <div align=center>
 <img src="fig/robot.jpg" width="600px">
@@ -72,10 +72,11 @@ The rostopics of our rosbag sequences are listed as follows:
 * IMU: `/imu/data `
  
 * Wheel Odometer: `/odom `
+
 ## 2.DATASET SEQUENCES
 
 
-## Notice: At this stage, we only release part of Rosbags. The complete dataset with GT and calibration files will be made public upon paper acceptance. 
+
 
 
 
@@ -116,7 +117,7 @@ Wall2|2.0g|66s|wall in a big hall|[Rosbag](bag)|[GT](gt)
 Wall3|3.9g|65s|wall in a corridor|[Rosbag](bag)|[GT](gt)
   </div>
   
-### 2.2 Wheel Failure
+### 2.2 Wheel Challenge
 
    <div align=center>
 
@@ -138,7 +139,7 @@ Roughroad3|1.8g|59s|rough road|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/
   
 
   
-### 2.3 Specific Motion Patterns
+### 2.3 Specific Movement Patterns
   <div align=center>
   
 Sequence Name|Total Size|Duration|Features|Rosbag|GT
