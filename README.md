@@ -6,7 +6,7 @@
 </div>
 <p align="center">Figure 1. Different corner cases for SLAM</p>
 
-
+## First Author: [Jie Yin](https://github.com/sjtuyinjie?tab=repositories) at 1195391308@qq.com
 
 ## Notice: At this stage, we only release part of Rosbags. The complete dataset with GT and calibration files will be made public upon paper acceptance. 
 
@@ -26,7 +26,7 @@ We will release the dataset and relevant materials upon paper publication to ben
 
 
 ## OUR PREVIOUS WORK:
-[M2DGR](https://ieeexplore.ieee.org/document/9664374).If you use M2DGR in an academic work, please cite:
+[M2DGR](https://github.com/SJTU-ViSYS/M2DGR).If you use M2DGR in an academic work, please cite:
 ~~~
 @ARTICLE{9664374,
   author={Yin, Jie and Li, Ang and Li, Tao and Yu, Wenxian and Zou, Danping},
