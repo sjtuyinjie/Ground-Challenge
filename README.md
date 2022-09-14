@@ -8,7 +8,7 @@
 
 ## First Author: [Jie Yin](https://github.com/sjtuyinjie?tab=repositories) at 1195391308@qq.com
 
-## Notice: At this stage, we only release part of Rosbags. The complete dataset with GT and calibration files will be made public upon paper acceptance. 
+## Notice: At this stage, we only release part of Rosbags. The complete dataset with GT and calibration files will be made public upon paper acceptance. If our work is helpful for your research, please follow us and give a star! Feel free to propose issues if you have any questions
 
 
 ## ABSTRACT:
