@@ -6,7 +6,6 @@
 </div>
 <p align="center">Figure 1. Different corner cases for SLAM</p>
 
-## Project Author: [Jie Yin](https://github.com/sjtuyinjie?tab=repositories) at 1195391308@qq.com
 
 Notice: Since the paper is under review, we only release some sample Rosbags at present. The complete dataset with GT and calibration files will be made public upon paper acceptance. If our work is helpful for your research, please follow us and give a star! Feel free to propose issues if you have any questions. The dataset will keep updating.
 ## We'd consider your suggestions and provide data support for SLAM reseachers as we can to facilitate SLAM progress.
@@ -25,20 +24,6 @@ We will release the dataset and relevant materials upon paper publication to ben
 * To facilitate the research on corner cases of robot navigation, we will release the dataset with ground truth trajectories and the configuration file of each tested algorithm upon paper publication.
 
 
-
-## OUR PREVIOUS WORK:
-[M2DGR](https://github.com/SJTU-ViSYS/M2DGR) is a Multi-modal and Multi-scenario SLAM Dataset for Ground Robots. If you use M2DGR in an academic work, please cite:
-~~~
-@ARTICLE{9664374,
-  author={Yin, Jie and Li, Ang and Li, Tao and Yu, Wenxian and Zou, Danping},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={M2DGR: A Multi-sensor and Multi-scenario SLAM Dataset for Ground Robots}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/LRA.2021.3138527}}
-~~~
 
 
 
