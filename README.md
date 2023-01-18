@@ -7,7 +7,7 @@
 <p align="center">Figure 1. Different corner cases for SLAM</p>
 
 
-Notice: Since the paper is under review, we only release some sample Rosbags at present. The complete dataset with GT and calibration files will be made public upon paper acceptance. If our work is helpful for your research, please follow us and give a star! Feel free to propose issues if you have any questions. The dataset will keep updating.
+Notice: The complete dataset with GT and calibration files will be made public upon paper acceptance. If our work is helpful for your research, please follow us and give a star! Feel free to propose issues if you have any questions. The dataset will keep updating.
 ## We'd consider your suggestions and provide data support for SLAM reseachers as we can to facilitate SLAM progress.
 
 
