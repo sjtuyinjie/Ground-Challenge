@@ -7,7 +7,7 @@
 <p align="center">Figure 1. Different corner cases for SLAM</p>
 
 
-Notice: The complete dataset with GT and calibration files will be made public upon paper acceptance. If our work is helpful for your research, please follow us and give a star! Feel free to propose issues if you have any questions. The dataset will keep updating.
+Notice: The complete dataset with GT and calibration files will be made public upon paper acceptance. You can leave your email address in the issure to get the data in advance. If our work is helpful for your research, please follow us and give a star! Feel free to propose issues if you have any questions. The dataset will keep updating.
 ## We'd consider your suggestions and provide data support for SLAM reseachers as we can to facilitate SLAM progress.
 
 
