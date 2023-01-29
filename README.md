@@ -9,8 +9,8 @@
 
 ## Notice: 
 ### 1. The complete dataset with GT and calibration files will be made public upon paper acceptance. 
-### 2. To get the data in advance, you can contact us in emails. If our work is helpful for your research, please follow us and give a star! The dataset will keep updating.
-### 3.We'd consider your suggestions and provide data support for SLAM reseachers as we can to facilitate SLAM progress.
+### 2. To get the data in advance, you can contact us in emails. If our work is helpful for your research, please follow us and give a star! 
+### 3. The dataset will keep updating. We'd consider your suggestions and provide data support for SLAM reseachers as we can to facilitate SLAM progress.
 
 
 ## ABSTRACT:
