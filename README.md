@@ -1,4 +1,4 @@
-# 	Ground-Challenge: A Ground Robot SLAM Dataset	Focusing on Corner Cases and Sensor Failures
+# 	Ground-Challenge: A Multi-sensor SLAM Dataset	Focusing on Corner Cases for Ground Robots
 
 <div align=center>
 <img src="fig/scenarios.jpg" width="800px">
