@@ -9,8 +9,7 @@
 
 ## Notice: 
 ### 1. All the rosbag files have been released now, while the GT, calibration files and robot size parameters will be made public upon paper acceptance. All the experiment results in the paper can be reproduced.
-### 2. To get the calibration and GT files in advance, you can contact us at 1195391308@qq.com. If our work is helpful for your research, please follow us and give a star! 
-### 3. The dataset will keep updating.
+### 2. To get the calibration and GT files in advance, you can contact us at 1195391308@qq.com. If our work is helpful for your research, please follow us and give a 
 
 
 ## ABSTRACT:
