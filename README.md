@@ -12,6 +12,16 @@
 ### 2. To get the calibration and GT files in advance, you can contact us at 1195391308@qq.com. If our work is helpful for your research, please follow us and give a star
 
 
+ A preprint version of the paper in [Arxiv]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use M2DGR in an academic work, please cite:
+~~~
+@article{yin2023ground,
+  title={Ground-Challenge: A Multi-sensor SLAM Dataset Focusing on Corner Cases for Ground Robots},
+  author={Yin, Jie and Yin, Hao and Liang, Conghui and Zhang, Zhengyou},
+  journal={arXiv preprint arXiv:2307.03890},
+  year={2023}
+}
+~~~
+
 ## ABSTRACT:
 
 We introduce Ground-Challenge: a novel dataset collected by a ground robot with multiple sensors including an RGB-D camera, an inertial measurement unit (IMU), a wheel odometer and a 3D LiDAR to support the research on corner cases of visual SLAM systems.
