@@ -106,7 +106,7 @@ Size/GB|6.1|9.9|4.7|4.6|5.6|4.3|8.7|9.9|5.4|5.8|5.4|2.7|5.7|78.8
   
   
 Sequence Name|Total Size|Duration|Features|Rosbag
---|:--|:--:|--:|--:|--:
+--|:--|:--:|--:|--:
 Darkroom1|2.9g|100s|slight light, going into a room|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EfJ_m0MD1upOphD5vnCoqSoBJ54_5D_vQQD0hpAwAq0qPg?e=nPEMLZ)
 Darkroom2|2.3g|76s|sharp turn|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EU4Ns3qCDO5PkjByuoANpf4BRWksqGt_pDnEnKXbbdz9Sw?e=shCbvM)
 Darkroom3|1.9g|64s|slight light|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EU2tnWCQitJOiRmNeHaCmtEBG2HssIMag9DRUrJOmYYxUQ?e=H408jO)
@@ -132,8 +132,8 @@ Wall3|3.9g|65s|wall in a corridor|[Rosbag](https://sjtueducn-my.sharepoint.com/:
 
    <div align=center>
 
-Sequence Name|Total Size|Duration|Features|Rosbag|GT
---|:--|:--:|--:|--:|--:
+Sequence Name|Total Size|Duration|Features|Rosbag
+--|:--|:--:|--:|--:
 Hall1|2.6g|91s|slippery ground, a reflective surface|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EbRe8o9pakFCvmjSKEgOEc0BglOJgScs0IbHFcxr84Fxig?e=SrKLRR)
 Hall2|3.2g|110s|slippery ground, a reflective surface|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EYSOrLJ0yRdLrUwH2HIej0kB53Lnwf7TuouMDO-TY-Pkrw?e=olQa4k)
 Hall3|2.9g|101s|slippery ground, walking human|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/ES5vEb2oe1hAqMVQY3LfgqMBXPlNazdu9B__0R0j3cwyhg?e=SHTCkb)
@@ -153,8 +153,8 @@ Roughroad3|1.8g|59s|rough road|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/
 ### 2.3 Specific Movement Patterns
   <div align=center>
   
-Sequence Name|Total Size|Duration|Features|Rosbag|GT
---|:--|:--:|--:|--:|--:
+Sequence Name|Total Size|Duration|Features|Rosbag
+--|:--|:--:|--:|--:
 Corridor1|2.9g|100s|zigzag, long corridor|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/Ed4KpGMgT2RMgzqt0HU0fw8BOvtgx18YnkdJQVekzwfe8g?e=8DjgCH)
 Corridor2|2.9g|98s|straight forward, long corridor|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EcWKsukr7nNLrqKloXY3UAIBERmG59qlTgE139U_h4K4OA?e=MdXou7)
 Rotation1|1.6g|53s|moving feet, far features|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EeYXHDYMNYNDoMocs1YBj34B3TvYSQtDqV8JjAel37uL9Q?e=upMCTa)
