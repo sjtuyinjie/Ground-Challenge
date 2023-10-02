@@ -10,8 +10,8 @@
 
 
 ## Notice: 
-### 1. All the rosbag files have been released now, while the GT, calibration files and robot size parameters will be made public upon paper acceptance. All the experiment results in the paper can be reproduced.
-### 2. To get the calibration and GT files in advance, you can contact us at 1195391308@qq.com. If our work is helpful for your research, please follow us and give a star
+### 1. All the rosbag files have been released now, and the psudo-GT and calibration files in
+
 
 
  A preprint version of the paper in [Arxiv]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use M2DGR in an academic work, please cite:
