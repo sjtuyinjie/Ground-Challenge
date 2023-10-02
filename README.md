@@ -166,10 +166,4 @@ Slope1|2.8g|96s|slope|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/persona
 Slope2|2.9g|99s|slope|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EQ6TUsSfrBdAiAljY8o2HLEBj62PzAp2g0c4XKcQtvHg0A?e=yvylnu)
 </div>
 
-## 3. CONFIGURERATION FILES
-For convenience of evaluation, we provide configuration files of some well-known SLAM systems as below:
 
-## To be uploaded
-
-## 4. CALIBRATION FILES
-## To be uploaded
