@@ -10,7 +10,7 @@
 
 
 ## Notice: 
-### 1. All the rosbag files have been released now, and the psudo-GT and calibration files in
+###  All the rosbag files have been released now, and the psudo-GT and calibration files in the folder.
 
 
 
