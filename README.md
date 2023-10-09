@@ -16,7 +16,7 @@
 ###  The pseudo-GT trajectories we provide are for reference only, and readers are welcome to use more advanced Lidar SLAM such as CT-ICP to obtain more accurate trajectories
 
 
- A preprint version of the paper in [Arxiv]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use M2DGR in an academic work, please cite:
+The paper link is [Arxiv]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use Ground-Challenge in an academic work, please cite:
 ~~~
 @article{yin2023ground,
   title={Ground-Challenge: A Multi-sensor SLAM Dataset Focusing on Corner Cases for Ground Robots},
