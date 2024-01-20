@@ -18,11 +18,13 @@
 
 The paper link is [Arxiv]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use Ground-Challenge in an academic work, please cite:
 ~~~
-@article{yin2023ground,
-  title={Ground-Challenge: A Multi-sensor SLAM Dataset Focusing on Corner Cases for Ground Robots},
-  author={Yin, Jie and Yin, Hao and Liang, Conghui and Zhang, Zhengyou},
-  journal={arXiv preprint arXiv:2307.03890},
-  year={2023}
+@inproceedings{yin2023ground,
+  title={Ground-challenge: A multi-sensor slam dataset focusing on corner cases for ground robots},
+  author={Yin, Jie and Yin, Hao and Liang, Conghui and Jiang, Haitao and Zhang, Zhengyou},
+  booktitle={2023 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
+  pages={1--5},
+  year={2023},
+  organization={IEEE}
 }
 ~~~
 
