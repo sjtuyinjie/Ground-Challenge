@@ -12,8 +12,6 @@
 ## Notice: 
 ###  All the rosbag files have been released now, and the psudo-GT and calibration files in the folder.
 
-## Suggestion: 
-###  The pseudo-GT trajectories we provide are for reference only, and readers are welcome to use more advanced Lidar SLAM such as CT-ICP to obtain more accurate trajectories
 
 
 The paper link is [Arxiv]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use Ground-Challenge in an academic work, please cite:
@@ -170,4 +168,5 @@ Slope1|2.8g|96s|slope|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/persona
 Slope2|2.9g|99s|slope|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/594666_sjtu_edu_cn/EQ6TUsSfrBdAiAljY8o2HLEBj62PzAp2g0c4XKcQtvHg0A?e=iKrk3m)
 </div>
 
-
+## 3. Configuration Files
+We provide configuration files for several cutting-edge baseline methods, including [VINS-RGBD](https://github.com/sjtuyinjie/Ground-Challenge/tree/main/config_files_gc/vinsrgbd),[TartanVO](https://github.com/sjtuyinjie/Ground-Challenge/tree/main/config_files_gc/tartanvo),[VINS-Mono](https://github.com/sjtuyinjie/Ground-Challenge/tree/main/config_files_gc/vinsmono) and [VIW-Fusion](https://github.com/sjtuyinjie/Ground-Challenge/tree/main/config_files_gc/viwfusion).
