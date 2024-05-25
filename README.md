@@ -23,7 +23,7 @@
 
 ## License
 
-The paper link is [here]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use Ground-Challenge in an academic work, please cite:
+The paper link is [here](https://arxiv.org/abs/2307.03890).If you use Ground-Challenge in an academic work, please cite:
 ~~~
 @inproceedings{yin2023ground,
   title={Ground-challenge: A multi-sensor slam dataset focusing on corner cases for ground robots},
