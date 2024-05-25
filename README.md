@@ -10,11 +10,20 @@
 
 
 ## Notice: 
-###  All the rosbag files have been released now, and the psudo-GT and calibration files in the folder.
+### We strongly recommend that the newly proposed SLAM algorithm be tested on our Ground-Challenge benchmark, because our data has following features:
+
+1. A rich pool of sensory information including RGBD, wheel, IMU and so on.
+   
+2. This benchmark includes diverse corner cases such as aggressive motion, severe occlusion, changing illumination, few textures, pure rotation, motion blur, wheel suspension, etc.
+
+  
+3. This benchmark brings great challenge to existing cutting-edge SLAM algorithms including VINS-Mono, [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3), [VINS-RGBD](https://github.com/STAR-Center/VINS-RGBD), [VIW-Fusion](https://github.com/TouchDeeper/VIW-Fusion) and [TartanVO](https://github.com/castacks/tartanvo). If your proposed algorihm outperforms SOTA systems on this dataset, your paper will be much more convincing and valuable.
 
 
 
-The paper link is [Arxiv]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use Ground-Challenge in an academic work, please cite:
+## License
+
+The paper link is [here]([https://arxiv.org/abs/2112.13659](https://arxiv.org/abs/2307.03890)) .If you use Ground-Challenge in an academic work, please cite:
 ~~~
 @inproceedings{yin2023ground,
   title={Ground-challenge: A multi-sensor slam dataset focusing on corner cases for ground robots},
@@ -32,11 +41,7 @@ We introduce Ground-Challenge: a novel dataset collected by a ground robot with 
 Our dataset comprises 36 trajectories with diverse corner cases such as aggressive motion, severe occlusion, changing illumination, few textures, pure rotation, motion blur, wheel suspension, etc. Some state-of-the-art SLAM algorithms are tested on our dataset, showing that these systems are seriously drifting and even failing on specific sequences.
 We will release the dataset and relevant materials upon paper publication to benefit the research community.
 
-## MAIN CONTRIBUTIONS:
 
-* We collect a novel visual SLAM dataset for ground robots with a rich pool of sensors in diverse environments both indoors and outdoors. Particularly, the dataset covers a series of challenging sequences for sensor failures and specific movement patterns.
-*  State-of-the-art SLAM algorithms of different settings are tested on our benchmark. And the results indicate these systems are not robust enough for situations such as sensor failures.
-* To facilitate the research on corner cases of robot navigation, we will release the dataset with ground truth trajectories and the configuration file of each tested algorithm upon paper publication.
 
 
 
