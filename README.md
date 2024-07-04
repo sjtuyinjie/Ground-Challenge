@@ -175,3 +175,9 @@ Slope2|2.9g|99s|slope|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/persona
 
 ## 3. Configuration Files
 We provide configuration files for several cutting-edge baseline methods, including [VINS-RGBD](https://github.com/sjtuyinjie/Ground-Challenge/tree/main/config_files_gc/vinsrgbd),[TartanVO](https://github.com/sjtuyinjie/Ground-Challenge/tree/main/config_files_gc/tartanvo),[VINS-Mono](https://github.com/sjtuyinjie/Ground-Challenge/tree/main/config_files_gc/vinsmono) and [VIW-Fusion](https://github.com/sjtuyinjie/Ground-Challenge/tree/main/config_files_gc/viwfusion).
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sjtuyinjie/Ground-Challenge&type=Timeline)](https://star-history.com/#Ashutosh00710/github-readme-activity-graph&Timeline)
+
