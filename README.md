@@ -2,7 +2,16 @@
 # 	Ground-Challenge
 ## A Multi-sensor SLAM Dataset	Focusing on Corner Cases for Ground Robots
 
+
+
 <div align=center>
+   
+[![Author](https://img.shields.io/badge/Author-Jie%20Yin-blue)](https://sjtuyinjie.github.io/)
+[![Paper](https://img.shields.io/badge/Paper-M2DGR-yellow)](https://ieeexplore.ieee.org/document/10354969/)
+[![Preprint](https://img.shields.io/badge/Preprint-Arxiv-purple)](https://arxiv.org/abs/2307.03890)
+[![License](https://img.shields.io/badge/License-MIT-cyan)]()
+[![News](https://img.shields.io/badge/News-orange)](https://mp.weixin.qq.com/s/jnfVFOXX6aiqGBX6pVdgIg)
+   
 <img src="fig/scenarios.jpg" width="800px">
 
 </div>
