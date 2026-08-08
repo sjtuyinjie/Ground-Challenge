@@ -189,5 +189,13 @@ We provide configuration files for several cutting-edge baseline methods, includ
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sjtuyinjie/Ground-Challenge&type=Timeline)](https://star-history.com/#Ashutosh00710/github-readme-activity-graph&Timeline)
+## Star History
+
+<a href="https://www.star-history.com/?repos=sjtuyinjie%2FGround-Challenge&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sjtuyinjie/Ground-Challenge&type=date&theme=dark&legend=top-left&sealed_token=yC7PbJZhYc2a2IWdLKleSUEflfGCPHJywSp9HH3dJgJb_BAuRUjjOrMslMOjooj1nWSDlzFfyoRP3eLF5y08wm2IB0JH_hRCAJNdOgFgGRpeuRA0-fjU5-ljHlLdVUtpOLNo0aWEgqVyrJHaSCAE3ZlstmzEdeeyurXVfnLbWCuknVW8Ef1XpsN7NLpe" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=sjtuyinjie/Ground-Challenge&type=date&legend=top-left&sealed_token=yC7PbJZhYc2a2IWdLKleSUEflfGCPHJywSp9HH3dJgJb_BAuRUjjOrMslMOjooj1nWSDlzFfyoRP3eLF5y08wm2IB0JH_hRCAJNdOgFgGRpeuRA0-fjU5-ljHlLdVUtpOLNo0aWEgqVyrJHaSCAE3ZlstmzEdeeyurXVfnLbWCuknVW8Ef1XpsN7NLpe" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=sjtuyinjie/Ground-Challenge&type=date&legend=top-left&sealed_token=yC7PbJZhYc2a2IWdLKleSUEflfGCPHJywSp9HH3dJgJb_BAuRUjjOrMslMOjooj1nWSDlzFfyoRP3eLF5y08wm2IB0JH_hRCAJNdOgFgGRpeuRA0-fjU5-ljHlLdVUtpOLNo0aWEgqVyrJHaSCAE3ZlstmzEdeeyurXVfnLbWCuknVW8Ef1XpsN7NLpe" />
+ </picture>
+</a>
 
