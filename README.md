@@ -18,6 +18,11 @@
 <p align="center">Figure 1. Different corner cases for SLAM</p>
 
 
+# 🎯 Notice
+## 2026.10.22: Old download links are not working, I'm uploading these bags to a new onedrive account and will fix this problem as soon as possible!
+
+
+
 ## Notice: 
 ### We strongly recommend that the newly proposed SLAM algorithm be tested on our Ground-Challenge benchmark, because our data has following features:
 
